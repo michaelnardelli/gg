@@ -1,0 +1,15 @@
+name = "gestione-turni-backend"
+compatibility_date = "2025-03-11"
+main = "src/index.ts"
+type = "typescript"
+
+[build]
+upload_format = "modules"
+
+[vars]
+JWT_SECRET = "progettoScolasticoTurni2025Segreto"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "gestione-turni-db"
+database_id = "471ce48d-da5c-4207-9778-2147f12fb6b7"
